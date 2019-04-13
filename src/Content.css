@@ -1,0 +1,205 @@
+.responsive {
+    width: 40%;
+    height: auto;
+    border-radius:50%;
+}
+
+.btn-primary{
+    border-radius : 30px;
+    background-color : #2A2E43;
+    border : none;
+}
+
+/* Animasi muncul2 gitu */
+.animate-bottom {
+position: relative;
+-webkit-animation-name: animatebottom;
+-webkit-animation-duration: 1s;
+animation-name: animatebottom;
+animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+from { bottom:-100px; opacity:0 } 
+to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+from{ bottom:-100px; opacity:0 } 
+to{ bottom:0; opacity:1 }
+}
+
+#homepage-section{
+    padding-top : 100px;
+    text-align: center;
+}
+
+.pembatas{
+    width: 100%;
+    height: 300px;
+}
+
+header{
+    background: white;
+    position: relative;
+    height: 600px;
+    min-height: 500px;
+    width: 100%;
+}
+
+#text-welcome{
+    font-size:3vw;
+}
+
+/*=============================== Section about =============================== */
+
+#About{
+    background: white;
+    padding-top: 120px;
+    padding-bottom: 150px;
+    overflow: hidden;
+}
+
+#text-about{
+    padding-bottom: 10px;
+    margin-bottom : 15px;
+    color: #2B2B2B;
+    font-size:2vw;
+    border-bottom: 5px solid #3497FD; 
+}
+
+#text-kontak{
+    padding-bottom: 10px;
+    margin-bottom : 15px;
+    color: #2B2B2B;
+    font-size:2vw;
+    border-bottom: 5px solid #5773FF; 
+}
+
+#About p {
+    line-height: 30px;
+    color: #7A7A7A;
+
+ }
+
+ /*=============================== Section education =============================== */
+
+ #Education{
+    background: white;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    overflow: hidden;
+}
+#text-education{
+    padding-bottom: 10px;
+    margin-bottom : 15px;
+    color: #2B2B2B;
+    font-size:2vw;
+    border-bottom: 5px solid #43E8E4; 
+}
+
+#Education p {
+    line-height: 30px;
+    color: #7A7A7A;
+
+ }
+
+ /*=============================== Section experience =============================== */
+
+ #Experience{
+    background: white;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    overflow: hidden;
+}
+#text-experience{
+    padding-bottom: 10px;
+    margin-bottom : 15px;
+    color: #2B2B2B;
+    font-size:2vw;
+    border-bottom: 5px solid #FF4893; 
+}
+
+#Experience p {
+    line-height: 30px;
+    color: #7A7A7A;
+
+ }
+
+ /*=============================== Section Skills =============================== */
+
+ #Skills{
+    background: white;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    overflow: hidden;
+}
+#text-skills{
+    padding-bottom: 10px;
+    margin-bottom : 15px;
+    color: #2B2B2B;
+    font-size:2vw;
+    border-bottom: 5px solid #2A2E43; 
+}
+
+#Skills p {
+    line-height: 30px;
+    color: #7A7A7A;
+
+ }
+
+.progress-bar{
+    background: #5831BA;
+}
+
+.progress{
+    height: 30px;
+}
+
+#progress-html , #progress-css, #progress-bs, #progress-xd, #progress-com, #progress-tw{
+    width: 75%;
+}
+
+#progress-js{
+    width: 35%;
+}
+
+#progress-react{
+    width: 25%;
+}
+#progress-mysql, #progress-ps, #progress-wf, #progress-al{
+    width: 50%;
+}
+
+
+/*=============================== Footer =============================== */
+
+footer{
+    background-color: #2A2E43;
+}
+
+#sosmed{
+    text-align: center;
+    padding-bottom: 1em !important;
+    padding-top: 1em !important;
+}
+
+#copyright{
+    text-align : center;
+    color: #7A7A7A;
+    padding-bottom : 0em;
+    font-size: 12px;
+}
+
+#text-about, #text-education, #text-experience, #text-skills, #text-kontak,#text-welcome {
+    font-weight: 900;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    #text-about, #text-education, #text-experience, #text-skills, #text-kontak,#text-welcome {
+        text-align:center;
+        font-size:3vw;
+    }
+
+  }

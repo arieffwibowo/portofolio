@@ -1,3 +1,23 @@
+html{
+  scroll-behavior: smooth;
+}
+
+#myNavbar{
+
+   z-index: 100;
+   position: fixed;
+}
+
+body{
+  font-family:'Montserrat';
+}
+
+.logo{
+  width: 100%;
+  max-width: 50px;
+  height: auto;
+}
+
 .App {
   text-align: center;
 }
@@ -31,3 +51,5 @@
     transform: rotate(360deg);
   }
 }
+
+
