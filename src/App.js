@@ -13,6 +13,9 @@ class App extends Component {
           <div class="collapse navbar-collapse" id = "navCol">
               <ul class = "nav navbar-nav ml-auto">
                   <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
                     <a class="nav-link" href="#About">About</a>
                   </li>
                   <li class="nav-item">
@@ -24,9 +27,7 @@ class App extends Component {
                   <li class="nav-item">
                     <a class="nav-link" href="#Skills">Skills</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#Contact">Contact</a>
-                  </li>
+                  
               </ul>
           </div>
         </nav>

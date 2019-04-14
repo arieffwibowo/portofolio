@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Content.css';
 
+
 class Content extends Component{
     render(){
         return(
@@ -14,15 +15,15 @@ class Content extends Component{
                                 </h1><br></br>
                                 <div class="p-2">
                                     <p>My name is Muhammad Arief Wibowo and i try to be Front-end.</p>
-                                </div><br></br>
+                                </div><br></br><br></br>
                                 <div>
                                     <a class="btn btn-primary shadow p-2 mb-4" href="#About">Let's explore me !</a>
-                                </div>
+                                </div><br></br>
                                 <div>
-                                    <span><a href="https://www.instagram.com/arieffwibowo/" class="nav-link fa fa-instagram"></a></span>
-                                    <span><a href="https://www.facebook.com/muhammad.arief.wibow" class="nav-link fa fa-facebook"></a></span>
-                                    <span><a href="https://twitter.com/ArieffWibowo" class="nav-link fa fa-twitter"></a></span>
-                                    <span><a href="https://www.linkedin.com/in/m-ariefwibowo/" class="nav-link fa fa-linkedin"></a></span>
+                                    <span><a href="https://www.instagram.com/arieffwibowo/" class=" sosmed nav-link fa fa-instagram"></a></span>
+                                    <span><a href="https://www.facebook.com/muhammad.arief.wibow" class=" sosmed nav-link fa fa-facebook"></a></span>
+                                    <span><a href="https://twitter.com/ArieffWibowo" class=" sosmed nav-link fa fa-twitter"></a></span>
+                                    <span><a href="https://www.linkedin.com/in/m-ariefwibowo/" class="sosmed nav-link fa fa-linkedin"></a></span>
                                 </div>
                             </div>
                             
@@ -77,7 +78,7 @@ class Content extends Component{
                                             Grogol, Jakarta Barat
                                     </span><br></br>
                                     <span>085711447702</span><br></br>
-                                <span>anyone@website.com</span>
+                                <span>arief.wibowo86@gmail.com</span>
                                 </p>
                             </div>
                         </div>
@@ -217,7 +218,10 @@ class Content extends Component{
                                 </p>
                             </div>
                         </div>
-                    </div>
+                    </div><br></br><br></br><br></br>
+                    <center>
+                        <a href="#" class="button button-download shadow"><i class="fa fa-download"></i>&nbsp;Download CV</a>
+                    </center> 
                 </section>
                 <center><img class="pembatas" src="skills.png" alt=""></img></center>
                 {/*===================== Skills ====================*/}
@@ -315,10 +319,10 @@ class Content extends Component{
 
                 <footer class = "footer mt-auto py-3">
                     <div id = "sosmed">
-                        <span><a href="https://www.instagram.com/arieffwibowo/" class="nav-link fa fa-instagram"></a></span>
-                        <span><a href="https://www.facebook.com/muhammad.arief.wibow" class="nav-link fa fa-facebook"></a></span>
-                        <span><a href="https://twitter.com/ArieffWibowo" class="nav-link fa fa-twitter"></a></span>
-                        <span><a href="https://www.linkedin.com/in/m-ariefwibowo/" class="nav-link fa fa-linkedin"></a></span>
+                        <span><a href="https://www.instagram.com/arieffwibowo/" class=" sosmed-footer nav-link fa fa-instagram"></a></span>
+                        <span><a href="https://www.facebook.com/muhammad.arief.wibow" class="sosmed-footer nav-link fa fa-facebook"></a></span>
+                        <span><a href="https://twitter.com/ArieffWibowo" class="sosmed-footer nav-link fa fa-twitter"></a></span>
+                        <span><a href="https://www.linkedin.com/in/m-ariefwibowo/" class="sosmed-footer nav-link fa fa-linkedin"></a></span>
                     </div>
                     <div  id = "copyright">
                         <h5>Copyright &copy; 2019 by Muhammad Arief Wibowo</h5>    

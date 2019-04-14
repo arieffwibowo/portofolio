@@ -2,10 +2,8 @@ html{
   scroll-behavior: smooth;
 }
 
-#myNavbar{
-
-   z-index: 100;
-   position: fixed;
+.bg-light{
+  background: white;
 }
 
 body{

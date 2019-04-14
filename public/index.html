@@ -46,4 +46,15 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+
+  <script>
+    $(window).scroll(function(){
+      if($(window).scrollTop() > 10){
+        $('nav').addClass('shadow');
+      }else{
+        $('nav').removeClass('shadow');
+
+      }
+    });
+  </script>
 </html>

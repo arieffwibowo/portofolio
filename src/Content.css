@@ -10,6 +10,44 @@
     border : none;
 }
 
+.sosmed{
+    margin: 5px;
+    font-size: 15px;
+    background-color: white;
+    border: 2px solid #2A2E43;
+    border-radius: 50%;
+    color: #2A2E43;;
+    text-align: center;
+    padding: 20px;
+  
+    width: 60px;
+}
+
+.sosmed:hover{
+    color: white;
+    background-color: #2A2E43;
+}
+
+.sosmed-footer{
+    margin: 5px;
+    font-size: 15px;
+    background-color: #2A2E43;
+    border: 2px solid gray;
+    border-radius: 50%;
+    color: gray;
+    text-align: center;
+    padding: 20px;
+    
+    width: 60px;
+}
+
+.sosmed-footer:hover{
+    background-color: white;
+    color: #2A2E43;
+    border: none;
+    
+}
+
 /* Animasi muncul2 gitu */
 .animate-bottom {
 position: relative;
@@ -126,6 +164,19 @@ header{
 
  }
 
+.button-download{
+    border : 2px solid #FF4893;
+    color: #FF4893;
+    padding: 10px;
+    border-radius: 10px; 
+}
+
+.button-download:hover{
+    color:white;
+    background-color: #FF4893;
+    text-decoration: none;
+}
+
  /*=============================== Section Skills =============================== */
 
  #Skills{
@@ -186,7 +237,7 @@ footer{
 
 #copyright{
     text-align : center;
-    color: #7A7A7A;
+    color: whitesmoke;
     padding-bottom : 0em;
     font-size: 12px;
 }
