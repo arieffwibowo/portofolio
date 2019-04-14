@@ -10,6 +10,19 @@ body{
   font-family:'Montserrat';
 }
 
+.nav-item{
+  margin: 5px;
+}
+
+.nav-link{
+  color: #282c34;
+}
+
+.navbar-toggler{
+  border : none;
+  color: #282c34;
+}
+
 .logo{
   width: 100%;
   max-width: 50px;

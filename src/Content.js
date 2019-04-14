@@ -14,7 +14,9 @@ class Content extends Component{
                                     <b>Hello, Welcome to My Website</b> 
                                 </h1><br></br>
                                 <div class="p-2">
-                                    <p>My name is Muhammad Arief Wibowo and i try to be Front-end.</p>
+                                    <p>My name is Muhammad Arief Wibowo and i'm currently lived in Jakarta.
+                                        Nice to meet you
+                                    </p>
                                 </div><br></br><br></br>
                                 <div>
                                     <a class="btn btn-primary shadow p-2 mb-4" href="#About">Let's explore me !</a>
@@ -78,7 +80,7 @@ class Content extends Component{
                                             Grogol, Jakarta Barat
                                     </span><br></br>
                                     <span>085711447702</span><br></br>
-                                <span>arief.wibowo86@gmail.com</span>
+                                <span> <a class = "shadow" id ="email" href = "mailto:arief.wibowo86@gmail.com">arief.wibowo86@gmail.com</a></span>
                                 </p>
                             </div>
                         </div>
@@ -96,7 +98,7 @@ class Content extends Component{
                                     <b>EDUCATION</b> 
                                 </h4>
                             </div>
-                        </div>
+                        </div><br></br>
                         <div class = "row">
                             <div class = "col-md-6">
                                 <h3>SMPN 5 Jakarta</h3>
@@ -136,10 +138,10 @@ class Content extends Component{
                                     <b>EXPERIENCE</b> 
                                 </h4>
                             </div>
-                        </div><br></br>
+                        </div><br></br><br></br>
                         <div class = "row">
                             <div class = "col-md-5">
-                                <h3>CLASS OF PRODUCT DESIGN</h3>
+                                <h3>Class of Product Design</h3>
                                 <p class="info">RISTEK OPEN CLASS <span>|</span> <em class="date">Nov 2016 - Nov 2016</em></p>
                                 <p>
                                 Learn how to design an app in mobile device
@@ -147,8 +149,8 @@ class Content extends Component{
                             </div>
                             <div class = "col-md-2"></div>
                             <div class = "col-md-5">
-                                <h3>GRAPHIC DESIGNER</h3>
-                                <p class="info">UI GOES TO BOEDOET <span>&bull;</span> <em class="date">Jan 2017 - Jan 2017</em></p>
+                                <h3>Graphic Designer</h3>
+                                <p class="info">UI GOES TO BOEDOET <span>|</span> <em class="date">Jan 2017 - Jan 2017</em></p>
 
                                 <p>
                                 Designing poster and twibbon "UI GOES TO BOEDOET"
@@ -157,8 +159,8 @@ class Content extends Component{
                         </div>
                         <div class = "row">
                             <div class = "col-md-5">
-                                <h3>STAFF OF SEMINAR EDUCARE</h3>
-                                <p class="info">EDUCARE <span>&bull;</span> <em class="date">Oct 2017 - Nov 2017</em></p>
+                                <h3>Staff of Seminar Educare</h3>
+                                <p class="info">EDUCARE <span>|</span> <em class="date">Oct 2017 - Nov 2017</em></p>
 
                                 <p>
                                 Educare is an event that aims to educate people about IT's knowledge
@@ -166,8 +168,8 @@ class Content extends Component{
                             </div>
                             <div class = "col-md-2"></div>
                             <div class = "col-md-5">
-                                <h3>STAFF OF STARTUP ACADEMY COMPFEST 9</h3>
-                                <p class="info">COMPFEST 9 <span>&bull;</span> <em class="date">March 2017- Aug 2017</em></p>
+                                <h3>Staff of Startup Academy</h3>
+                                <p class="info">COMPFEST 9 <span>|</span> <em class="date">March 2017- Aug 2017</em></p>
 
                                 <p>
                                 COMPFEST is the biggest IT's event in Indonesia which held by
@@ -179,8 +181,8 @@ class Content extends Component{
                         </div>
                         <div class = "row">
                             <div class = "col-md-5">
-                                <h3>CLASS OF WEB DEVELOPER</h3>
-                                <p class="info">RISTEK OPEN CLASS <span>&bull;</span> <em class="date">Nov 2017 - Nov 2017</em></p>
+                                <h3>Class of Web Developer</h3>
+                                <p class="info">RISTEK OPEN CLASS <span>|</span> <em class="date">Nov 2017 - Nov 2017</em></p>
 
                                 <p>
                                 Learn front-end developer (HTML and CSS)
@@ -188,8 +190,8 @@ class Content extends Component{
                             </div>
                             <div class = "col-md-2"></div>
                             <div class = "col-md-5">
-                                <h3>PERSON IN CHARGE OF STARTUP ACADEMY</h3>
-                                <p class="info">COMPFEST X<span>&bull;</span> <em class="date">Jan 2018 - Aug 2018</em></p>
+                                <h3>Person in Charge of Startup Academy</h3>
+                                <p class="info">COMPFEST X <span>|</span> <em class="date">Jan 2018 - Aug 2018</em></p>
 
                                 <p>
                                 COMPFEST is the biggest IT's event in Indonesia which held by
@@ -201,8 +203,8 @@ class Content extends Component{
                         </div><br></br>
                         <div class = "row">
                             <div class = "col-md-5">
-                                <h3>INTERNAL CONTROL</h3>
-                                <p class="info">FUKI<span>&bull;</span> <em class="date">Jan 2019 - present</em></p>
+                                <h3>Internal Control</h3>
+                                <p class="info">FUKI <span>|</span> <em class="date">Jan 2019 - present</em></p>
 
                                 <p>
                                 Internal Control of Forum Ukhuwah and Kajian Islam
@@ -210,8 +212,8 @@ class Content extends Component{
                             </div>
                             <div class = "col-md-2"></div>
                             <div class = "col-md-5">
-                                <h3>STAFF OF ENTREPRENEUR SIG</h3>
-                                <p class="info">SISTEM 2019<span>&bull;</span> <em class="date">Jan 2019 - present</em></p>
+                                <h3>Member of Entrepreneur SIG</h3>
+                                <p class="info">SISTEM 2019 <span>|</span> <em class="date">Jan 2019 - present</em></p>
 
                                 <p>
                                Member of SISTEM Fasilkom UI 2019
@@ -220,7 +222,7 @@ class Content extends Component{
                         </div>
                     </div><br></br><br></br><br></br>
                     <center>
-                        <a href="#" class="button button-download shadow"><i class="fa fa-download"></i>&nbsp;Download CV</a>
+                        <a href="cv.pdf" class="button button-download shadow"><i class="fa fa-download"></i>&nbsp;Download CV</a>
                     </center> 
                 </section>
                 <center><img class="pembatas" src="skills.png" alt=""></img></center>

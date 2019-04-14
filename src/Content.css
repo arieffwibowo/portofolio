@@ -86,7 +86,7 @@ header{
 }
 
 #text-welcome{
-    font-size:3vw;
+    font-size:40px;
 }
 
 /*=============================== Section about =============================== */
@@ -114,11 +114,32 @@ header{
     border-bottom: 5px solid #5773FF; 
 }
 
-#About p {
+ #About p {
     line-height: 30px;
+    font-size: 15px;
     color: #7A7A7A;
-
  }
+
+#About h3{
+    font-weight: bold;
+    font-size: 20px;
+}
+#About h4{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#email{
+    text-decoration: none;
+    background-color: #5773FF;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#email:hover{
+    opacity: 0.7;
+}
 
  /*=============================== Section education =============================== */
 
@@ -138,9 +159,18 @@ header{
 
 #Education p {
     line-height: 30px;
+    font-size: 15px;
     color: #7A7A7A;
-
  }
+
+#Education h3{
+    font-weight: bold;
+    font-size: 18px;
+}
+#Education h4{
+    font-weight: bold;
+    font-size: 25px;
+}
 
  /*=============================== Section experience =============================== */
 
@@ -160,9 +190,18 @@ header{
 
 #Experience p {
     line-height: 30px;
+    font-size: 15px;
     color: #7A7A7A;
-
  }
+
+#Experience h3{
+    font-weight: bold;
+    font-size: 18px;
+}
+#Experience h4{
+    font-weight: bold;
+    font-size: 25px;
+}
 
 .button-download{
     border : 2px solid #FF4893;
@@ -195,9 +234,18 @@ header{
 
 #Skills p {
     line-height: 30px;
+    font-size: 15px;
     color: #7A7A7A;
-
  }
+
+#Skills h3{
+    font-weight: bold;
+    font-size: 18px;
+}
+#Skills h4{
+    font-weight: bold;
+    font-size: 25px;
+}
 
 .progress-bar{
     background: #5831BA;
@@ -237,7 +285,7 @@ footer{
 
 #copyright{
     text-align : center;
-    color: whitesmoke;
+    color: #7A7A7A;
     padding-bottom : 0em;
     font-size: 12px;
 }
@@ -250,7 +298,10 @@ footer{
 @media only screen and (max-width: 1200px) {
     #text-about, #text-education, #text-experience, #text-skills, #text-kontak,#text-welcome {
         text-align:center;
-        font-size:3vw;
+    }
+
+    #text-welcome{
+        font-size: 30px;
     }
 
   }
