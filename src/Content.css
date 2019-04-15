@@ -141,6 +141,11 @@ header{
     opacity: 0.7;
 }
 
+#abo-pict{
+    width: 40%;
+    height: auto;
+}
+
  /*=============================== Section education =============================== */
 
  #Education{
@@ -170,6 +175,11 @@ header{
 #Education h4{
     font-weight: bold;
     font-size: 25px;
+}
+
+#edu-pict{
+    width: 60%;
+    height: auto;
 }
 
  /*=============================== Section experience =============================== */
@@ -210,10 +220,30 @@ header{
     border-radius: 10px; 
 }
 
+.button-portfolio{
+    border : 2px solid #2A2E43;
+    color: #2A2E43;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 20px; 
+}
+
 .button-download:hover{
     color:white;
     background-color: #FF4893;
     text-decoration: none;
+}
+
+.button-portfolio:hover{
+    color:white;
+    background-color: #2A2E43;
+    text-decoration: none;
+}
+
+#ex-pict{
+    width: 15%;
+    height: auto;
+    margin-left: 100px;
 }
 
  /*=============================== Section Skills =============================== */
@@ -227,9 +257,9 @@ header{
 #text-skills{
     padding-bottom: 10px;
     margin-bottom : 15px;
-    color: #2B2B2B;
+    color: #2A2E43;
     font-size:2vw;
-    border-bottom: 5px solid #2A2E43; 
+    border-bottom: 5px solid #5831BA; 
 }
 
 #Skills p {
@@ -249,6 +279,7 @@ header{
 
 .progress-bar{
     background: #5831BA;
+    opacity: 0.6;
 }
 
 .progress{
@@ -268,6 +299,13 @@ header{
 }
 #progress-mysql, #progress-ps, #progress-wf, #progress-al{
     width: 50%;
+}
+
+#ski-pict{
+    width: 15%;
+    height: auto;
+    margin-left: 100px;
+    margin-bottom : 50px;
 }
 
 
@@ -308,7 +346,15 @@ footer{
         padding-top : 50px;
     }
 
+    .pembatas{
+        height: 200px;
+    }
+
     #text-welcome{
         font-size: 30px;
+    }   
+
+    #edu-pict, #abo-pict, #ex-pict, #ski-pict{
+        display: none;
     }
 }

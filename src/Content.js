@@ -62,7 +62,9 @@ class Content extends Component{
                         </div><br></br><br></br>
                         <div class = "row">
                             <div class = "col-md-6">
-                                
+                                <center>
+                                    <img id = "abo-pict" src = "abo.png"></img>
+                                </center>
                             </div>
                             <div class = "col-md-6">
                                 <div class = "row">
@@ -119,10 +121,12 @@ class Content extends Component{
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div><br></br>
                            
                             <div class = "col-md-6">
-                               
+                               <center>
+                               <img id = "edu-pict" src = "edu.png"></img>
+                               </center>
                             </div>
                         </div>
                     </div>
@@ -137,6 +141,11 @@ class Content extends Component{
                                 <h4 id = "text-experience">
                                     <b>EXPERIENCE</b> 
                                 </h4>
+                            </div>
+                            <div class = "col-md-10">
+                                <center>
+                                    <img id = "ex-pict" src = "ex.png"></img>
+                                </center>
                             </div>
                         </div><br></br><br></br>
                         <div class = "row">
@@ -220,8 +229,9 @@ class Content extends Component{
                                 </p>
                             </div>
                         </div>
-                    </div><br></br><br></br><br></br>
+                    </div><br></br><br></br><br></br><br></br>
                     <center>
+                        <a href="https://behance.net/arief-wibowo" class="button button-portfolio shadow"><i class="fa fa-chrome"></i>&nbsp;Link Portfolio</a>
                         <a href="cv.pdf" class="button button-download shadow"><i class="fa fa-download"></i>&nbsp;Download CV</a>
                     </center> 
                 </section>
@@ -234,6 +244,11 @@ class Content extends Component{
                                 <h4 id = "text-skills">
                                     <b>SKILLS</b> 
                                 </h4>
+                            </div>
+                            <div class = "col-md-10">
+                                <center>
+                                    <img id = "ski-pict" src = "ski.png"></img>
+                                </center>
                             </div>
                         </div><br></br>
                         <div class = "row">
